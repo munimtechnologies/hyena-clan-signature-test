@@ -1,0 +1,37 @@
+{
+ "hyena_whoops_2021_07_08.csv": {
+  "bytes": 111759,
+  "sha256": "a48f07a733935b4e9d071b469c191f04774bc7aac9b5e786c371db15ebb7f367",
+  "matches_dryad": true
+ },
+ "hyenaClanCode.txt": {
+  "bytes": 645,
+  "sha256": "79a9e5f9ead77925f701aed2ebc412f3a2e56cbd54f7feace7828e71adbd3bd2",
+  "matches_dryad": true
+ },
+ "BORA_2020_06_12.csv": {
+  "bytes": 4231,
+  "sha256": "08d3ee8cbe462d14daba051f1e920af679b1adbb73ffcf9e1ac7f0398c003917",
+  "matches_dryad": true
+ },
+ "BYTE_2020_06_12.csv": {
+  "bytes": 3741,
+  "sha256": "e61734b78eec3a1ee72fbf89a6ae80b74f075ee7e8a002c089b4c6da536ddca8",
+  "matches_dryad": true
+ },
+ "FAY-_2020_06_12.csv": {
+  "bytes": 3253,
+  "sha256": "2fedad9e0f7625c9b5c0e5d2f7e832ac88e51a0637a69adf0227767c50d6e4d9",
+  "matches_dryad": true
+ },
+ "MGTA_2020_06_12.csv": {
+  "bytes": 1474,
+  "sha256": "4881d144b3bb39ddf2c97be436ad83f3368bcae86b724fe8262e838099e90696",
+  "matches_dryad": true
+ },
+ "WRTH_2020_06_12.csv": {
+  "bytes": 6626,
+  "sha256": "ba392367fd21505640169c23660c83f09fa65d35acc61711dc1c64d3e90bf68d",
+  "matches_dryad": true
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "paper": "doi:10.1098/rspb.2022.0548",
+ "settings": {
+  "data_dir": "/data/hyena",
+  "out_dir": "/out",
+  "worlds": 299,
+  "worlds_fem": 199,
+  "power_worlds": 40,
+  "p0_iters": 1000,
+  "p0_trees": 500,
+  "p0_null_worlds": 99,
+  "p0_null_iters": 40,
+  "trees": 100,
+  "n_jobs": 2,
+  "budget_min": 270.0,
+  "seed": 20261123
+ },
+ "whoop_types": {
+  "S": 100,
+  "K": 45,
+  "A": 331,
+  "T": 38,
+  "P": 44,
+  "V": 8,
+  "01": 1,
+  "02": 1,
+  "03": 1,
+  "04": 1,
+  "05": 1
+ },
+ "datasets": {
+  "all": {
+   "n_whoops": 431,
+   "n_hyenas": 47,
+   "hyenas_per_clan": {
+    "HZ": 10,
+    "SN": 11,
+    "SS": 14,
+    "TW": 12
+   },
+   "whoops_per_clan": {
+    "HZ": 118,
+    "SN": 58,
+    "SS": 106,
+    "TW": 149
+   },
+   "dropped_nonfinite": 0,
+   "clans": [
+    "HZ",
+    "SN",
+    "SS",
+    "TW"
+   ]
+  },
+  "handheld": {
+   "n_whoops": 375,
+   "n_hyenas": 42,
+   "hyenas_per_clan": {
+    "HZ": 10,
+    "SN": 11,
+    "SS": 14,
+    "TW": 7
+   },
+   "whoops_per_clan": {
+    "HZ": 118,
+    "SN": 58,
+    "SS": 106,
+    "TW": 93
+   },
+   "dropped_nonfinite": 0,
+   "clans": [
+    "HZ",
+    "SN",
+    "SS",
+    "TW"
+   ]
+  },
+  "females": {
+   "n_whoops": 225,
+   "n_hyenas": 30,
+   "hyenas_per_clan": {
+    "HZ": 4,
+    "SN": 6,
+    "SS": 10,
+    "TW": 10
+   },
+   "whoops_per_clan": {
+    "HZ": 28,
+    "SN": 34,
+    "SS": 64,
+    "TW": 99
+   },
+   "dropped_nonfinite": 0,
+   "clans": [
+    "HZ",
+    "SN",
+    "SS",
+    "TW"
+   ]
+  }
+ },
+ "T1_all": {
+  "observed": 0.24028709716209715,
+  "chance": 0.25,
+  "worlds": 299,
+  "p": 0.34,
+  "null_mean": 0.2206982795506021,
+  "null_q95": 0.31122053699234503,
+  "per_hyena": {
+   "ANGI": 0.0,
+   "ANNR": 0.23809523809523808,
+   "BADG": 0.8333333333333334,
+   "BBW-": 1.0,
+   "BORA": 0.6,
+   "BRPH": 1.0,
+   "BYTE": 0.6,
+   "DDMA": 0.6,
+   "DEE-": 0.0,
+   "DORA": 0.8,
+   "DUO": 0.0,
+   "FAY-": 0.7777777777777778,
+   "GRIM": 0.0,
+   "HIGS": 0.6,
+   "HRPY": 0.0,
+   "ISTA": 0.375,
+   "JAVA": 0.1111111111111111,
+   "JAZZ": 0.0,
+   "JLYR": 0.3333333333333333,
+   "JONI": 0.0,
+   "KOMO": 0.0,
+   "KS--": 0.0,
+   "LGO-": 0.0,
+   "LOGC": 0.0,
+   "LPR-": 0.0,
+   "MGTA": 0.0,
+   "MTN-": 0.2,
+   "ONEK": 0.0,
+   "PALA": 0.2,
+   "PGLG": 0.25,
+   "PIKE": 0.0,
+   "RALI": 0.0,
+   "RBC-": 0.0,
+   "RMON": 0.0,
+   "ROOS": 0.9090909090909091,
+   "RSTR": 0.0,
+   "RSWL": 0.7777777777777778,
+   "SGL-": 0.0,
+   "SHRM": 0.0,
+   "SNAP": 0.0,
+   "SST-": 0.0,
+   "TAJ-": 0.5,
+   "TEMP": 0.0,
+   "TNKS": 0.7,
+   "TSU-": 0.0,
+   "TWST": 0.0,
+   "WRTH": 0.3181818181818182
+  }
+ },
+ "T2_handheld": {
+  "observed": 0.275421626984127,
+  "chance": 0.25,
+  "worlds": 299,
+  "p": 0.17666666666666667,
+  "null_mean": 0.22372408158457188,
+  "null_q95": 0.3149764446412173,
+  "per_hyena": {
+   "ANGI": 0.0,
+   "ANNR": 0.6666666666666666,
+   "BADG": 0.5,
+   "BBW-": 1.0,
+   "BRPH": 1.0,
+   "DDMA": 0.4,
+   "DEE-": 0.0,
+   "DORA": 0.3,
+   "DUO": 0.0,
+   "GRIM": 0.0,
+   "HIGS": 0.8,
+   "HRPY": 0.0,
+   "ISTA": 0.45,
+   "JAVA": 0.2222222222222222,
+   "JAZZ": 0.0,
+   "JLYR": 0.16666666666666666,
+   "JONI": 0.6666666666666666,
+   "KOMO": 0.3333333333333333,
+   "KS--": 0.0,
+   "LGO-": 0.0,
+   "LOGC": 0.0,
+   "LPR-": 0.0,
+   "MTN-": 0.4,
+   "ONEK": 0.0,
+   "PALA": 0.2,
+   "PGLG": 0.75,
+   "PIKE": 0.0,
+   "RALI": 0.0,
+   "RBC-": 0.0,
+   "RMON": 0.0,
+   "ROOS": 0.9090909090909091,
+   "RSTR": 0.0625,
+   "RSWL": 0.24444444444444444,
+   "SGL-": 0.0,
+   "SHRM": 0.0,
+   "SNAP": 0.5,
+   "SST-": 0.0,
+   "TAJ-": 0.75,
+   "TEMP": 0.6666666666666666,
+   "TNKS": 0.4,
+   "TSU-": 0.0,
+   "TWST": 0.0
+  }
+ },
+ "T3_power": {
+  "0.25": {
+   "worlds": 40,
+   "hits": 40,
+   "power": 1.0
+  },
+  "0.50": {
+   "worlds": 40,
+   "hits": 40,
+   "power": 1.0
+  },
+  "0.75": {
+   "worlds": 40,
+   "hits": 40,
+   "power": 1.0
+  },
+  "1.00": {
+   "worlds": 40,
+   "hits": 40,
+   "power": 1.0
+  }
+ },
+ "T4_authors": {
+  "iters": 1000,
+  "mean_acc": 0.34584642358022366,
+  "sd_acc": 0.17941820227734118,
+  "mean_we": 0.25730001075555775,
+  "reproduction": "REPRODUCED",
+  "null_obs": 0.0858393926749169,
+  "null_worlds": 99,
+  "null_p": 0.09
+ },
+ "T5_females": {
+  "observed": 0.1938794191919192,
+  "chance": 0.25,
+  "worlds": 199,
+  "p": 0.575,
+  "null_mean": 0.20953733841767758,
+  "null_q95": 0.31135563973063973,
+  "per_hyena": {
+   "ANGI": 0.0,
+   "BADG": 0.3333333333333333,
+   "BBW-": 0.8,
+   "BORA": 0.13333333333333333,
+   "BRPH": 0.9375,
+   "BYTE": 0.2,
+   "DORA": 0.7,
+   "FAY-": 0.8888888888888888,
+   "GRIM": 0.3333333333333333,
+   "HRPY": 0.0,
+   "JAVA": 0.1111111111111111,
+   "JLYR": 0.0,
+   "JONI": 0.3333333333333333,
+   "KOMO": 0.16666666666666666,
+   "KS--": 0.0,
+   "LOGC": 0.0,
+   "MGTA": 0.0,
+   "MTN-": 0.0,
+   "PALA": 0.0,
+   "PIKE": 0.0,
+   "RBC-": 0.0,
+   "RMON": 0.0,
+   "ROOS": 0.5454545454545454,
+   "SGL-": 0.0,
+   "SHRM": 0.0,
+   "SNAP": 0.0,
+   "TAJ-": 0.25,
+   "TNKS": 0.8,
+   "TWST": 0.5454545454545454,
+   "WRTH": 0.45454545454545453
+  }
+ },
+ "verdict": "NO_GROUP_SIGNAL_POWERED",
+ "elapsed_s": 9087.298767328262
+}
